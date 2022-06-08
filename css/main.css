@@ -153,7 +153,7 @@ body {
 /* Small devices (landscape phones, 768px to down) */
 @media (max-width: 767.98px) {
     .project1-title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
         color: var(--bs-azul-claro);
     }
@@ -373,7 +373,7 @@ body {
 /* Small devices (landscape phones, 768px to down) */
 @media (max-width: 767.98px) {
     .project2-title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
         color: var(--bs-azul-20);
     }
@@ -592,7 +592,7 @@ body {
 /* Small devices (landscape phones, 768px to down) */
 @media (max-width: 767.98px) {
     .project3-title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
         color: var(--bs-azul-20);
     }
