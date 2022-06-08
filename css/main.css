@@ -1,0 +1,1187 @@
+body { 
+    padding-top: 100px; 
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .carousel-img{
+        height: 40vh;
+        object-fit: cover;
+    }
+}
+
+/*message*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .quotes {
+        color: var(--bs-verde-claro);
+    }    
+    .message-ligth{
+        color: var(--bs-gris-claro);
+        font-weight: 400;            
+    }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .quotes {
+        color: var(--bs-verde-claro);
+    }    
+    .message-ligth{
+        color: var(--bs-gris-claro);
+        font-size: 1.3rem;
+        font-weight: 400;  
+        padding: 0px 0px 0px 0px;          
+    }
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .quotes {
+        color: var(--bs-verde-claro);
+        font-size: 0.6rem;
+   
+    }    
+    .message-ligth{
+        color: var(--bs-gris-claro);
+        font-size: 1rem;
+        font-weight: 300;  
+        padding: 0px 0px 0px 0px;          
+    }
+}
+
+/*projetc carrusel*/
+.project-slide{
+    width: 100%;
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .slide-box img {
+        width: 390px; 
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;  
+    }
+}
+
+/* Medium devices (tablets, 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box img {
+        width: 330px; 
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;    
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .slide-box a  {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .slide-box img {
+        width: 390px;     
+    }
+}
+
+.project-description{
+    color: var(--bs-gris-claro);
+    font-weight: 400;   
+}
+
+
+.project1-header{
+    padding-bottom: 150px;
+}
+
+
+/*project1*/
+/*project1 title*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project1-title{
+        font-size: 8rem;
+        font-weight: 800;
+        color: var(--bs-azul-claro);
+    }
+    .project1-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 9rem;
+        font-weight: 800;      
+         
+    }
+    .project1-subtitle{
+        font-size: 3rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);
+    }
+
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project1-title{
+        color: var(--bs-azul-claro);
+        font-size: 6rem;
+        font-weight: 800;
+       
+        }
+    .project1-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 6rem;
+        font-weight: 800;        
+         
+    }
+    .project1-subtitle{
+        font-weight: 800;
+        font-size: 2rem;
+        color: var(--bs-naranja-claro);
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project1-title{
+        font-size: 4rem;
+        font-weight: 800;
+        color: var(--bs-azul-claro);
+    }
+    .project1-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid; 
+        color:  var(--bs-azul-20);
+        font-size: 4rem;
+        font-weight: 800;        
+   
+    }
+    .project1-subtitle{
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--bs-naranja-claro);
+    }
+}
+
+
+/*project1 gallery*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project1-gallery {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px;    
+    }
+    .project1-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;  
+        grid-row: 1/3;             
+    }
+    .project1-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 5/13;
+        grid-row: 1/2;        
+    }
+    .project1-gallery-img3{
+        background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 3/5;
+        grid-column: 1/5;
+    }
+    .project1-gallery-img4{
+        background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 2/5;
+        grid-column: 5/9;
+    }
+    .project1-gallery-img5{
+        background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-5.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 2/5;
+        grid-column: 9/13;
+    }
+}
+
+/* Medium devices (tablets, 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .project1-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px;    
+    }
+    .project1-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;  
+        grid-row: 1/2;            
+    }
+    .project1-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 4/7;
+        grid-row: 1/3;        
+    }
+    .project1-gallery-img3{
+        background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 2/3;        
+    }
+    .project1-gallery-img4{
+        background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/7;
+        grid-row: 3/4;        
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project1-gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 1000px;    
+    }
+    .project1-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project1/nsphotography-project1-mobile-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;  
+        grid-row: 1/1;            
+    }
+    .project1-gallery-img2{
+        background-image: url(../assets/img/project1/nsphotography-project1-mobile-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        grid-row: 2/4;        
+    }
+    .project1-gallery-img3{
+        background-image: url(../assets/img/project1/nsphotography-project1-mobile-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        grid-row: 4/5;        
+    }
+}
+
+/*project2*/
+.project2-header{
+    margin-top: 1rem;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/*project2 title*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project2-title{
+        font-size: 8rem;
+        font-weight: 800;
+        color: var(--bs-azul-20);
+    }
+    .project2-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 9rem;
+        font-weight: 800;      
+         
+    }
+    .project2-subtitle{
+        font-size: 3rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project2-title{
+        color: var(--bs-azul-20);
+        font-size: 5rem;
+        font-weight: 800;
+       
+        }
+    .project2-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 8rem;
+        font-weight: 800;        
+         
+    }
+    .project2-subtitle{
+        font-weight: 800;
+        font-size: 2rem;
+        color: var(--bs-azul-oscuro);
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project2-title{
+        font-size: 4rem;
+        font-weight: 800;
+        color: var(--bs-azul-20);
+    }
+    .project2-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid; 
+        color:  var(--bs-azul-20);
+        font-size: 4rem;
+        font-weight: 800;        
+   
+    }
+    .project2-subtitle{
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--bs-azul-oscuro);
+    }
+}
+
+
+/*project2 gallery*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project2-gallery {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px; 
+    }
+    .project2-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/9;  
+        grid-row: 1/3;             
+    }
+    .project2-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-04.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 9/13;
+        grid-row: 1/6;        
+    }
+    .project2-gallery-img3{
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 3/6;
+        grid-column: 1/5;
+    }
+    .project2-gallery-img4{
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 3/6;
+        grid-column: 5/9;
+    }
+}
+
+/* Medium devices (tablets, 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .project2-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px;    
+    }
+    .project2-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project2/nsphotography-project2-tablet-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/7;  
+        grid-row: 1;            
+    }
+    .project2-gallery-img2{
+        background-image: url(../assets/img/project2/nsphotography-project2-tablet-04.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 4/7;
+        grid-row: 2/4;        
+    }
+    .project2-gallery-img4{
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 2/3;        
+    }
+    .project2-gallery-img3{
+        background-image: url(../assets/img/project2/nsphotography-project2-desktop-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 3;        
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project2-gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 1000px;    
+    }
+    .project2-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project2/nsphotography-proyect2-mobile-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;  
+        grid-row: 1/1;            
+    }
+    .project2-gallery-img4{
+        background-image: url(../assets/img/project2/nsphotography-proyect2-mobile-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/3;
+        grid-row: 2/4;        
+    }
+    .project2-gallery-img3{
+        background-image: url(../assets/img/project2/nsphotography-proyect2-mobile-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 3/5;
+        grid-row: 2/4;        
+    }
+    .project2-gallery-img2{
+        background-image: url(../assets/img/project2/nsphotography-proyect2-mobile-04.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        grid-row: 4/6;        
+    }
+}
+
+/*project3*/
+.project3-header{
+    margin-top: 1rem;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/*project2 title*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project3-title{
+        font-size: 8rem;
+        font-weight: 800;
+        color: var(--bs-azul-20);
+    }
+    .project3-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 9rem;
+        font-weight: 800;      
+         
+    }
+    .project3-subtitle{
+        font-size: 3rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);
+    }
+
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project3-title{
+        color: var(--bs-azul-20);
+        font-size: 6rem;
+        font-weight: 800;
+       
+        }
+    .project3-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid;  
+        color:  var(--bs-azul-20);
+        font-size: 6rem;
+        font-weight: 800;        
+         
+    }
+    .project3-subtitle{
+        font-weight: 800;
+        font-size: 2rem;
+        color: var(--bs-azul-oscuro);
+    }
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project3-title{
+        font-size: 4rem;
+        font-weight: 800;
+        color: var(--bs-azul-20);
+    }
+    .project3-title-number{
+        border-left-width: 2px;
+        border-color: var(--bs-azul-20);
+        border-left-style : solid; 
+        color:  var(--bs-azul-20);
+        font-size: 4rem;
+        font-weight: 800;        
+   
+    }
+    .project3-subtitle{
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--bs-azul-oscuro);
+    }
+}
+
+
+/*project3 gallery*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .project3-gallery {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px; 
+    }
+    .project3-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-desktop-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;  
+        grid-row: 1/6;             
+    }
+    .project3-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-desktop-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 5/9;
+        grid-row: 1/4;        
+    }
+    .project3-gallery-img3{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-desktop-04.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 1/4;
+        grid-column: 9/13;
+    }
+    .project3-gallery-img4{
+        background-image: url(../assets/img/project3/nsphotography-project3-desktop-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 4/6;
+        grid-column: 5/13;
+    }
+}
+
+/* Medium devices (tablets, 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .project3-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 900px;    
+    }
+    .project3-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-tablet-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;  
+        grid-row: 1/2;            
+    }
+    .project3-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-tablet-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 4/7;
+        grid-row: 1/2;        
+    }
+    .project3-gallery-img4{
+        background-image: url(../assets/img/project3/nsphotography-project3-tablet-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/7;
+        grid-row: 2/3;        
+    }
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .project3-gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        min-height: 600px;    
+    }
+    .project3-gallery-img1{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-mobile-02.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/3;  
+        grid-row: 1/3;            
+    }
+    .project3-gallery-img2{
+        margin-top: -150px;
+        background-image: url(../assets/img/project3/nsphotography-project3-mobile-03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 3/5;
+        grid-row: 1/3;        
+    }
+    .project3-gallery-img4{
+        background-image: url(../assets/img/project3/nsphotography-project3-mobile-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        grid-row: 3/4;        
+    }
+}
+
+/*aboutme*/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    .aboutme-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        max-height: 1000px; 
+    }
+    .aboutme-title{
+        background-color: black;
+        background-size: cover;
+        grid-column: 1/7;  
+        grid-row: 1/4; 
+        padding: 2rem;           
+    }
+    .aboutme-title h1{
+        font-size: 8rem;
+        font-weight: 800;
+        color: var(--bs-azul-claro);
+    }
+    .aboutme-title h2{
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);
+    }
+    .aboutme-i{
+        grid-column: 1/3;  
+        grid-row: 3/4; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);  
+        padding-left: 2rem;
+    }
+    .aboutme-city{
+        grid-column: 1/3;  
+        grid-row: 3/4; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: fff;
+        padding-left: 5rem;
+    }
+    
+    .aboutme-image{
+        background-image: url(../assets/img/nsphotography-boutme-desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 4/8;
+        grid-row: 2/5;        
+    }
+    .aboutme-mesagge{   
+        grid-column: 8/13;
+        grid-row: 1/3;        
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        padding: 2rem;
+    }   
+    .aboutme-years{   
+        grid-column: 8/10;
+        grid-row: 3/4;   
+        padding: 3rem 0 0 2rem;   
+    }
+    .aboutme-years h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+        
+    }
+    .aboutme-years h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+
+    .aboutme-countries{           
+        grid-column: 10/13;
+        grid-row: 3/4;
+        padding: 3rem 0 0 2rem; 
+    }
+    .aboutme-countries h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-countries h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+    
+    .aboutme-photos{           
+        grid-column: 1/4;
+        grid-row: 4/5;
+        background-color: var(--bs-azul-oscuro);
+        padding: 3rem 0 0 2rem;
+        align-self: flex-end;
+    }
+    .aboutme-photos h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+    }
+    .aboutme-photos h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+    .aboutme-customers{           
+        grid-column: 8/11;
+        grid-row: 4/5;
+        background-color: var(--bs-azul-oscuro);
+        padding: 3rem 0 0 2rem;
+        align-self: flex-end;
+    }
+    .aboutme-customers h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+    }
+    .aboutme-customers h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+    .aboutme-photoshoots{           
+        grid-column: 10/13;
+        grid-row: 4/5;
+        background-color: var(--bs-azul-oscuro);
+        padding: 3rem 0 0 2rem;
+        align-self: flex-end;
+    }
+    .aboutme-photoshoots h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+    }
+    .aboutme-photoshoots h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+}
+
+
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .aboutme-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        min-height: 900px; 
+    }
+    .aboutme-title{
+        background-color: black;
+        background-size: cover;
+        grid-column: 1/7;  
+        grid-row: 1/3; 
+        padding: 2rem;           
+    }
+    .aboutme-title h1{
+        padding-right: 100px;
+        font-size: 6rem;
+        font-weight: 800;
+        color: var(--bs-azul-claro);
+        line-height: 0.8;
+    }
+    .aboutme-title h2{
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);
+    }
+    .aboutme-i{
+        grid-column: 1/3;  
+        grid-row: 2/3; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);  
+        padding: 2rem 0 0 2rem;
+    }
+    .aboutme-city{
+        grid-column: 1/3;  
+        grid-row: 2/3; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: fff;
+        padding: 2rem 0 0 4rem;
+    }
+
+    
+    .aboutme-image{
+        background-image: url(../assets/img/nsphotography-boutme-tablet.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 4/7;
+        grid-row: 2/5;        
+    }
+
+    .aboutme-years{   
+        grid-column: 1/4;
+        grid-row: 3/4;  
+        padding-left: 2rem; 
+    }
+    .aboutme-years h2{
+        font-size: 3.5rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-years h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+    
+
+    .aboutme-countries{           
+        grid-column: 1/4;
+        grid-row: 4/5;
+        padding-left: 2rem;
+    }
+    .aboutme-countries h2{
+        font-size: 3.5rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-countries h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+
+
+    .aboutme-customers{           
+        grid-column: 1/3;
+        grid-row: 5/6;
+        background-color: var(--bs-azul-oscuro);
+    }
+    .aboutme-customers h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .aboutme-customers h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+        padding-left: 2rem;
+    }
+    
+    .aboutme-photos{           
+        grid-column: 3/5;
+        grid-row: 5/6;
+        background-color: var(--bs-azul-oscuro);
+    }
+    .aboutme-photos h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+        padding-top: 2rem;
+    }
+    .aboutme-photos h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+
+
+
+    .aboutme-photoshoots{           
+        grid-column: 5/7;
+        grid-row: 5/6;
+        background-color: var(--bs-azul-oscuro);
+    }
+    .aboutme-photoshoots h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+        padding-top: 2rem;
+    }
+    .aboutme-photoshoots h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+
+    .aboutme-mesagge{   
+    grid-column: 1/7;
+    grid-row: 6/8;        
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 2rem;
+    margin: 2rem;
+}   
+
+}
+
+/* Small devices (landscape phones, 768px to down) */
+@media (max-width: 767.98px) {
+    .aboutme-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        min-height: 1500px; 
+    }
+    .aboutme-title{
+        background-color: black;
+        background-size: cover;
+        grid-column: 1/5;  
+        grid-row: 1/3; 
+        padding: 2rem;           
+    }
+    .aboutme-title h1{
+        font-size: 4rem;
+        font-weight: 800;
+        color: var(--bs-azul-claro);
+        line-height: 0.8;
+    }
+    .aboutme-title h2{
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);
+        padding-top: 1rem;
+    }
+    .aboutme-i{
+        grid-column: 1/3;  
+        grid-row: 2/3; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: var(--bs-naranja-claro);  
+        padding: 2rem 0 0 2rem;
+    }
+    .aboutme-city{
+        grid-column: 1/3;  
+        grid-row: 2/3; 
+        font-size: 2rem;
+        font-weight: 800;        
+        color: fff;
+        padding: 2rem 0 0 4rem;
+    }
+
+    
+    .aboutme-image{
+        background-image: url(../assets/img/nsphotography-boutme-mobile.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        grid-row: 3/7;        
+    }    
+
+    .aboutme-countries{           
+        grid-column: 2/5;
+        grid-row: 7/8;
+        padding: 1rem 0 0 2rem;
+     }
+    .aboutme-countries h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-countries h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+
+    .aboutme-photoshoots{           
+        grid-column: 1/3;
+        grid-row: 8/9;
+        background-color: var(--bs-azul-oscuro);
+        padding: 1rem 0 0 2rem;
+    }
+    .aboutme-photoshoots h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;
+    }
+    .aboutme-photoshoots h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+
+    .aboutme-photos{           
+        grid-column: 3/5;
+        grid-row: 8/9;
+        background-color: var(--bs-azul-oscuro);
+        padding-top: 1rem;
+    }
+    .aboutme-photos h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: #fff;       
+    }
+    .aboutme-photos h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: #fff;
+    }
+
+    .aboutme-customers{           
+        grid-column: 1/3;
+        grid-row: 9/10;
+        padding: 1rem 0 0 2rem;
+    }
+    .aboutme-customers h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-customers h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+
+    .aboutme-years{   
+        grid-column: 3/5;
+        grid-row: 9/10;  
+        padding-top: 1rem;
+    }
+    .aboutme-years h2{
+        font-size: 4rem;
+        font-weight: 800;        
+        color: var(--bs-azul-oscuro);
+    }
+    .aboutme-years h3{
+        font-size: 1.2rem;
+        font-weight: 600;        
+        color: var(--bs-azul-oscuro);
+    }
+
+    .aboutme-mesagge{   
+        grid-column: 1/7;
+        grid-row: 10/13;        
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        padding: 1rem;        
+    }  
+}
