@@ -10,4 +10,18 @@ $(document).ready(function(){
             }
         });
     });
+    $('.nav-quit').click(function(){
+        
+        $('#offcanvasNavbarLight').slideToggle(500, function(e){
+            
+            $('.offcanvas-backdrop').hide()
+        })
+        
+    })
+    $('.navbar-toggler').click(function(){
+        $('#offcanvasNavbarLight').show()
+        
+    })
 });
+
+
