@@ -31,7 +31,7 @@ body {
         color: var(--bs-gris-claro);
         font-size: 1.3rem;
         font-weight: 400;  
-        padding: 0px 0px 0px 0px;          
+        padding: 0px;         
     }
 }
 
@@ -162,7 +162,7 @@ body {
         border-color: var(--bs-azul-20);
         border-left-style : solid; 
         color:  var(--bs-azul-20);
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: 800;        
    
     }
@@ -382,7 +382,7 @@ body {
         border-color: var(--bs-azul-20);
         border-left-style : solid; 
         color:  var(--bs-azul-20);
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: 800;        
    
     }
@@ -601,7 +601,7 @@ body {
         border-color: var(--bs-azul-20);
         border-left-style : solid; 
         color:  var(--bs-azul-20);
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: 800;        
    
     }
@@ -1056,7 +1056,7 @@ body {
         padding: 2rem;           
     }
     .aboutme-title h1{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
         color: var(--bs-azul-claro);
         line-height: 0.8;
@@ -1100,12 +1100,12 @@ body {
         padding: 1rem 0 0 2rem;
      }
     .aboutme-countries h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;        
         color: var(--bs-azul-oscuro);
     }
     .aboutme-countries h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;        
         color: var(--bs-azul-oscuro);
     }
@@ -1117,12 +1117,12 @@ body {
         padding: 1rem 0 0 2rem;
     }
     .aboutme-photoshoots h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;        
         color: #fff;
     }
     .aboutme-photoshoots h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;        
         color: #fff;
     }
@@ -1134,12 +1134,12 @@ body {
         padding-top: 1rem;
     }
     .aboutme-photos h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;        
         color: #fff;       
     }
     .aboutme-photos h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;        
         color: #fff;
     }
@@ -1150,12 +1150,12 @@ body {
         padding: 1rem 0 0 2rem;
     }
     .aboutme-customers h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;        
         color: var(--bs-azul-oscuro);
     }
     .aboutme-customers h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;        
         color: var(--bs-azul-oscuro);
     }
@@ -1166,12 +1166,12 @@ body {
         padding-top: 1rem;
     }
     .aboutme-years h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;        
         color: var(--bs-azul-oscuro);
     }
     .aboutme-years h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;        
         color: var(--bs-azul-oscuro);
     }
