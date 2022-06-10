@@ -18,7 +18,7 @@ body {
     }    
     .message-ligth{
         color: var(--bs-gris-claro);
-        font-weight: 400;            
+        font-weight: 400;
     }
 }
 
@@ -183,19 +183,18 @@ body {
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 900px;    
+        min-height: 900px;  
+        margin-top: -150px;  
     }
     .project1-gallery-img1{
-        margin-top: -150px;
         background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-1.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         grid-column: 1/5;  
-        grid-row: 1/3;             
+        grid-row: 1/4;             
     }
     .project1-gallery-img2{
-        margin-top: -150px;
         background-image: url(../assets/img/project1/nsphotography-proyect1-desktop-2.png);
         background-size: cover;
         background-position: center;
@@ -208,7 +207,7 @@ body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        grid-row: 3/5;
+        grid-row: 4/5;
         grid-column: 1/5;
     }
     .project1-gallery-img4{
@@ -237,10 +236,10 @@ body {
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 900px;    
+        min-height: 900px; 
+        margin-top: -150px;   
     }
-    .project1-gallery-img1{
-        margin-top: -150px;
+    .project1-gallery-img1{        
         background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-1.png);
         background-size: cover;
         background-position: center;
@@ -249,7 +248,6 @@ body {
         grid-row: 1/2;            
     }
     .project1-gallery-img2{
-        margin-top: -150px;
         background-image: url(../assets/img/project1/nsphotography-projetc1-tablet-2.png);
         background-size: cover;
         background-position: center;
@@ -403,10 +401,10 @@ body {
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 900px; 
+        min-height: 900px;
+        margin-top: -150px; 
     }
     .project2-gallery-img1{
-        margin-top: -150px;
         background-image: url(../assets/img/project2/nsphotography-project2-desktop-01.png);
         background-size: cover;
         background-position: center;
@@ -414,8 +412,7 @@ body {
         grid-column: 1/9;  
         grid-row: 1/3;             
     }
-    .project2-gallery-img2{
-        margin-top: -150px;
+    .project2-gallery-img2{        
         background-image: url(../assets/img/project2/nsphotography-project2-desktop-04.png);
         background-size: cover;
         background-position: center;
@@ -449,10 +446,10 @@ body {
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 900px;    
+        min-height: 900px; 
+        margin-top: -150px;  
     }
-    .project2-gallery-img1{
-        margin-top: -150px;
+    .project2-gallery-img1{       
         background-image: url(../assets/img/project2/nsphotography-project2-tablet-01.png);
         background-size: cover;
         background-position: center;
@@ -623,9 +620,10 @@ body {
         grid-column-gap: 20px;
         grid-row-gap: 20px;
         min-height: 900px; 
+        margin-top: -150px;
     }
     .project3-gallery-img1{
-        margin-top: -150px;
+       
         background-image: url(../assets/img/project3/nsphotography-project3-desktop-02.png);
         background-size: cover;
         background-position: center;
@@ -634,7 +632,6 @@ body {
         grid-row: 1/6;             
     }
     .project3-gallery-img2{
-        margin-top: -150px;
         background-image: url(../assets/img/project3/nsphotography-project3-desktop-03.png);
         background-size: cover;
         background-position: center;
@@ -643,7 +640,6 @@ body {
         grid-row: 1/4;        
     }
     .project3-gallery-img3{
-        margin-top: -150px;
         background-image: url(../assets/img/project3/nsphotography-project3-desktop-04.png);
         background-size: cover;
         background-position: center;
@@ -669,10 +665,10 @@ body {
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 900px;    
+        min-height: 900px; 
+        margin-top: -150px;   
     }
-    .project3-gallery-img1{
-        margin-top: -150px;
+    .project3-gallery-img1{        
         background-image: url(../assets/img/project3/nsphotography-project3-tablet-02.png);
         background-size: cover;
         background-position: center;
@@ -707,10 +703,10 @@ body {
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
-        min-height: 600px;    
+        min-height: 600px;  
+        margin-top: -150px;  
     }
-    .project3-gallery-img1{
-        margin-top: -150px;
+    .project3-gallery-img1{        
         background-image: url(../assets/img/project3/nsphotography-project3-mobile-02.png);
         background-size: cover;
         background-position: center;
@@ -719,7 +715,6 @@ body {
         grid-row: 1/3;            
     }
     .project3-gallery-img2{
-        margin-top: -150px;
         background-image: url(../assets/img/project3/nsphotography-project3-mobile-03.png);
         background-size: cover;
         background-position: center;
@@ -1114,7 +1109,7 @@ body {
         grid-column: 1/3;
         grid-row: 8/9;
         background-color: var(--bs-azul-oscuro);
-        padding: 1rem 0 0 2rem;
+        padding: 1rem 0 0 1rem;
     }
     .aboutme-photoshoots h2{
         font-size: 3.5rem;
@@ -1147,7 +1142,7 @@ body {
     .aboutme-customers{           
         grid-column: 1/3;
         grid-row: 9/10;
-        padding: 1rem 0 0 2rem;
+        padding: 1rem 0 0 1rem;
     }
     .aboutme-customers h2{
         font-size: 3.5rem;
@@ -1220,9 +1215,10 @@ body {
     }
     .reviews-description-nia{
         color: white;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     /*NICKI*/
@@ -1262,9 +1258,10 @@ body {
     }
     .reviews-description-nicki{
         color: black;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     /*ELENA*/
@@ -1303,9 +1300,10 @@ body {
     }
     .reviews-description-elena{
         color: black;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 }
 
@@ -1341,10 +1339,11 @@ body {
     }
     .reviews-description-nia{
         color: white;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
-    }
+        line-height: 1.2;
+}
 
     /*NICKI*/
     .reviews-subtitle-nicki{
@@ -1362,8 +1361,7 @@ body {
         
     }
     .reviews-img-nicki{
-        width: 100%;
-       
+        width: 100%;       
         margin-top: -80px;
     }
     .reviews-nicki2{
@@ -1384,9 +1382,10 @@ body {
     }
     .reviews-description-nicki{
         color: black;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     /*ELENA*/
@@ -1425,9 +1424,10 @@ body {
     }
     .reviews-description-elena{
         color: black;
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 }
 
@@ -1464,9 +1464,9 @@ body {
     }
     .reviews-description-nia{
         color: white;
-        font-size: 1.5rem;
-        
+        font-size: 1.5rem;        
         text-align: center;
+        line-height: 1.2;
     }
 
     /*NICKI*/
@@ -1497,8 +1497,7 @@ body {
         justify-content: center;
         
     }
-    .reviews-text-nicki{
-        
+    .reviews-text-nicki{        
         width: 100%;
         padding: 0 2rem;
         display: flex;
@@ -1507,9 +1506,9 @@ body {
     }
     .reviews-description-nicki{
         color: black;
-        font-size: 1.5rem;
-        
+        font-size: 1.5rem;        
         text-align: center;
+        line-height: 1.2;
     }
 
     /*ELENA*/
@@ -1535,8 +1534,7 @@ body {
         flex-direction: column;
         justify-content: center;  
     }
-    .reviews-text-elena{
-        
+    .reviews-text-elena{        
         width: 100%;
         padding: 2rem 0;
         display: flex;
@@ -1545,9 +1543,9 @@ body {
     }
     .reviews-description-elena{
         color: black;
-        font-size: 1.5rem;
-        
+        font-size: 1.5rem;        
         text-align: center;
+        line-height: 1.2;
     }
 }
 
