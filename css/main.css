@@ -1,7 +1,10 @@
 body { 
     padding-top: 100px; 
 }
-
+.active{
+    color:#76C6E3;
+    border-bottom: 2px solid #76C6E3;
+}
 /* Small devices (landscape phones, 768px to down) */
 @media (max-width: 767.98px) {
     .carousel-img{
@@ -103,6 +106,7 @@ body {
 /*project1 title*/
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
+    
     .project1-title{
         font-size: 8rem;
         font-weight: 800;
@@ -152,6 +156,7 @@ body {
 
 /* Small devices (landscape phones, 768px to down) */
 @media (max-width: 767.98px) {
+    
     .project1-title{
         font-size: 3rem;
         font-weight: 800;
@@ -741,6 +746,9 @@ body {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
+    #aboutme{
+        scroll-margin-top:50px;
+    }
     .aboutme-container {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -1190,6 +1198,9 @@ body {
 
 /*--DESKTOP--*/
 @media (min-width: 992px){
+    #reviews{
+        scroll-margin-top:70px;
+    }
     .reviews-title{
         font-size: 8rem;
         font-weight: 800;
@@ -1554,8 +1565,10 @@ body {
 /*SECCION CONTACTO Y FOOTER*/
 @media (min-width: 992px) {
     /* INICIO SECCION CONTACTO */
+    
     .contact-title{
-    padding: 2rem;
+    
+    padding-top: 2rem;
     font-size: 8rem;
     font-weight: 800;
     }
@@ -1565,7 +1578,7 @@ body {
     }
     .btn-mail-contact{
         width: 100%;
-        height: 35px;
+        height: 45px;
         border-radius: 25px; 
         font-weight: 600;
         text-align: center;
@@ -1577,7 +1590,9 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 5px;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
     }
     .mail-section{
         width: 50%;
