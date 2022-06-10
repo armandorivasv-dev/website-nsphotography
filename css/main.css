@@ -801,7 +801,6 @@ body {
         font-size: 4rem;
         font-weight: 800;        
         color: var(--bs-azul-oscuro);
-        
     }
     .aboutme-years h3{
         font-size: 1.2rem;
@@ -818,6 +817,7 @@ body {
         font-size: 4rem;
         font-weight: 800;        
         color: var(--bs-azul-oscuro);
+        grid-column: 10;
     }
     .aboutme-countries h3{
         font-size: 1.2rem;
