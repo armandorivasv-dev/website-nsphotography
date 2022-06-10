@@ -10,7 +10,7 @@ $(document).ready(function(){
             }
         });
     });
-          
+
         $('.nav-quit').click(function(){
             
             if($(window).width()<992){
@@ -24,8 +24,6 @@ $(document).ready(function(){
         })
         const sections=document.querySelectorAll('.section')
                 const navQuit=document.querySelectorAll('.navDesktop')
-                console.log(navQuit)
-                console.log(sections)
                 window.onscroll = () => {
                     var current = "";
                 
