@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <!-- link iconos bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- link jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- link ligthbox -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"> 
     <!-- link fontawesome -->
@@ -22,8 +24,8 @@
 
 <body>
     <!-- section navigation -->
-    <section id="home">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="navigation" aria-label="Light Offcanvas navbar large">
+    <section id="home" class="section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top " id="navigation" aria-label="Light Offcanvas navbar large">
             <div class="container">
                 <a class="navbar-brand" href="#home">
                     <img src="./assets/img/nsphotography-logo-black.svg" width="250" alt="NS Photography">
@@ -37,33 +39,33 @@
                     <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="true" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#mirror-of-the-soul" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Projects
-                                </a>
-                                <ul class="dropdown-menu bg-black" aria-labelledby="offcanvasNavbarLgDropdown">
-                                    <li><a class="dropdown-item" href="#mirror-of-the-soul">Mirror of the soul</a></li>
-                                    <li><a class="dropdown-item" href="#dancing-dreams">Dancing Dreams</a></li>
-                                    <li><a class="dropdown-item" href="#sound-of-the-heart">Sound of the Heart</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="true" href="#aboutme">About Me</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="true" href="#reviews">Reviews</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link"  aria-current="true" href="#contact">Contact</a>
-                            </li>
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
+                        <li class="nav-item ">
+                        <a class="nav-link nav-quit navDesktop home" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navDesktop mirror-of-the-soul dancing-dreams sound-of-the-heart" href="#mirror-of-the-soul" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu bg-black" aria-labelledby="offcanvasNavbarLgDropdown">
+                            <li><a class="dropdown-item nav-quit navDesktop" href="#mirror-of-the-soul">Mirror of the soul</a></li>
+                            <li><a class="dropdown-item nav-quit navDesktop" href="#dancing-dreams">Dancing Dreams</a></li>
+                            <li><a class="dropdown-item nav-quit navDesktop" href="#sound-of-the-heart">Sound of the Heart</a></li>
                         </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-quit navDesktop aboutme" aria-current="page" href="#aboutme">About Me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-quit navDesktop reviews" aria-current="page" href="#reviews">Reviews</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-quit navDesktop contact" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                     </div>
                 </div>
             </div>
@@ -119,9 +121,9 @@
     </section>
 
     <!-- section projets -->
-    <section id="projects">
+    <section id="projects" class="section">
         
-        <div id="mirror-of-the-soul">
+        <div id="mirror-of-the-soul"  class="section">
             <div class="bg-black project1-header"> 
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -252,7 +254,7 @@
         </div>
 
        
-        <div id="dancing-dreams">
+        <div id="dancing-dreams"  class="section">
             <div class="bg-black project2-header"> 
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -383,7 +385,7 @@
     
 
         
-        <div id="sound-of-the-heart">
+        <div id="sound-of-the-heart"  class="section">
             <div class="bg-black project3-header"> 
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -492,7 +494,7 @@
     </section>
 
         <!-- section aboutme -->
-        <section id="aboutme" class="mt-4">
+        <section id="aboutme" class="mt-4 section">
             <div class="container">
                 <div class="aboutme-container">
                     <div class="aboutme-title">
@@ -544,7 +546,7 @@
 
 
     <!-- section reviews -->
-    <section id="reviews" class="mt-4">
+    <section id="reviews"  class="section mt-4">
         <div class="bg-black">
             <div class="container">
                 <h1 class="reviews-title">REVIEWS</h1>
@@ -595,7 +597,7 @@
     </section>
 
     <!-- section contact -->
-    <section id="contact">
+    <section id="contact"  class="section bg-black">
         <div class="bg-black">
             <div class="container">
                 <h1 class="contact-title col">CONTACT</h1>
@@ -604,17 +606,25 @@
             <div class="container">
                 <div class="cont-contact">
                     <div class="mail-section">
-                        <p class="text-contact">Leave me your email contaact and I'll get back to you to talk about your project</p>
-                        <textarea  class="text-area" placeholder="WRITE YOUR MAIL" ></textarea>
+                        <p class="text-contact">Send me an email and I will contact you to talk about your project.</p>
+                        <a href="mailto:nicosanderph@gmail.com" target="_blank"><button class="btn-mail-contact">SEND A MAIL</button></a>
                     </div>
                     
                     <div class="redes">
                             <p class=" text-contact">OR CONTACT ME</p>
                             <div class=" logos-red">
-                                <img src="./assets/img/RED=WHATSAPP.svg" class="logo-red" alt="ns photography WHATSAPP">
-                                <img src="./assets/img/RED=INSTAGRAM.svg" class="logo-red" alt="ns photography INSTAGRAM">
-                                <img src="./assets/img/RED=BEHANCE.svg" class="logo-red" alt="ns photography BEHANCE">
-                                <img src="./assets/img/RED=MAIL.svg" class="logo-red" alt="ns photography EMAIL">
+                                <a href="https://wa.me/971569934447" target="_blank">
+                                    <img src="./assets/img/RED=WHATSAPP.svg" class="logo-red" alt="ns photography">
+                                </a>
+                                <a href="https://www.instagram.com/nicosanderphotography/" target="_blank">
+                                    <img src="./assets/img/RED=INSTAGRAM.svg" class="logo-red" alt="ns photography">
+                                </a>
+                                <a href="https://www.behance.net/nicosander" target="_blank">
+                                    <img src="./assets/img/RED=BEHANCE.svg" class="logo-red" alt="ns photography">
+                                </a>
+                                <a href="mailto:nicosanderph@gmail.com" target="_blank">
+                                    <img src="./assets/img/RED=MAIL.svg" class="logo-red" alt="ns photography">
+                                </a>
                             </div>
                     </div>
                 </div>
@@ -623,10 +633,10 @@
     </section>
 
     <!-- section footer -->
-    <section id="footer">
-        <div class="cont-footer">
+    <section id="footer" class="bg-black">
+        <div class="cont-footer container">
             <p class="text-footer">NS Photography all rights reserved</p>
-            <p class="text-footer">Made with ♥ by Alejandra, Agustin y Armando</p>
+            <p class="text-footer">Made with ♥ by <a href="https://www.behance.net/AleForeroM" target="_blank" class="text-develops">Alejandra</a>, <a href="" target="_blank" class="text-develops" >Agustin</a> y <a href="https://armandoweb.agency//" target="_blank" class="text-develops">Armando</a></p>
         </div>
     </section>
 
