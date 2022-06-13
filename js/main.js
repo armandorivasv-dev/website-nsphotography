@@ -10,7 +10,7 @@ $(document).ready(function(){
             }
         });
     });
-
+          
         $('.nav-quit').click(function(){
             
             if($(window).width()<992){
@@ -24,6 +24,7 @@ $(document).ready(function(){
         })
         const sections=document.querySelectorAll('.section')
                 const navQuit=document.querySelectorAll('.navDesktop')
+                
                 window.onscroll = () => {
                     var current = "";
                 
@@ -34,10 +35,10 @@ $(document).ready(function(){
                         
                     });
                 
-                    navQuit.forEach((a) => {
-                    a.classList.remove("active");
-                    if (a.classList.contains(current)) {
-                        a.classList.add("active");
+                    navQuit.forEach((li) => {
+                    li.classList.remove("active1");
+                    if (li.classList.contains(current)) {
+                        li.classList.add("active1");
                     }
                     });
                 };      
