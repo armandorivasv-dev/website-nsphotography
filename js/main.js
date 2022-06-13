@@ -24,8 +24,7 @@ $(document).ready(function(){
         })
         const sections=document.querySelectorAll('.section')
                 const navQuit=document.querySelectorAll('.navDesktop')
-                console.log(navQuit)
-                console.log(sections)
+                
                 window.onscroll = () => {
                     var current = "";
                 
