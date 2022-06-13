@@ -36,10 +36,10 @@ $(document).ready(function(){
                         
                     });
                 
-                    navQuit.forEach((a) => {
-                    a.classList.remove("active");
-                    if (a.classList.contains(current)) {
-                        a.classList.add("active");
+                    navQuit.forEach((li) => {
+                    li.classList.remove("active1");
+                    if (li.classList.contains(current)) {
+                        li.classList.add("active1");
                     }
                     });
                 };      
