@@ -63,21 +63,26 @@ body {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-    .slide-box img {
+    .slide-box a {
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%;
+        max-width: 100%;       
+    }
+    .slide-box img{
         width: 390px; 
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;  
     }
 }
 
 /* Medium devices (tablets, 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box a {
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+        max-width: 100%;
+    }
     .slide-box img {
         width: 330px; 
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;    
+ 
     }
 
 }
